@@ -37,6 +37,7 @@ shinyUI(
 					bottom = "auto",
 					right = 250,
 					left = 250,
+					style="z-index:500;",
 					# map search query
 					fluidRow(
 						column(

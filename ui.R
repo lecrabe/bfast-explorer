@@ -1,5 +1,8 @@
 library(shiny)
 
+options(stringsAsFactors=FALSE)
+options(shiny.launch.browser=T)
+
 shinyUI(
 	navbarPage(
 		title = div(
